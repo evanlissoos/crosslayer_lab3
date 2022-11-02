@@ -93,82 +93,24 @@ def save_model(model, path):
     torch.save(model.state_dict(), path)
 
 
-# Function that outputs the fused model weights to CSV
+# Function that saves a model layer parameters to a CSV
 # Prints: nothing
 # Returns: nothing
-def fquant_to_csv(model, filename):
-    out = 'layer_name,zero_point,scale,weight_dim0,weight_dim1,weight_dim2,weight_dim3,weights\n'
-    out += 'conv1.weight,'
-    out += str(model.conv1.zero_point) + ','
-    out += str(model.conv1.scale) + ','
+def layer_to_csv(layer, filename):
+    out = ''
+    size = layer.weight().size()
     for i in range(4):
-        if i < len(model.conv1.weight().size()):
-            out += str(model.conv1.weight().size()[i]) + ','
+        if i < len(layer.weight().size()):
+            out += str(layer.weight().size()[i]) + ','
         else:
             out += '0,'
-    flattened = torch.flatten(model.conv1.weight().int_repr()).numpy()
+    out += str(layer.zero_point) + ','
+    out += str(layer.scale) + ',\n'
+    flattened = torch.flatten(layer.weight().int_repr()).numpy()
     flattened = np.char.mod('%d', flattened)
-    out += ",".join(flattened) + '\n'
-
-    out += 'conv1.bias,'
-    out += str(model.conv1.zero_point) + ','
-    out += str(model.conv1.scale) + ','
-    for i in range(4):
-        if i < len(model.conv1.bias().size()):
-            out += str(model.conv1.bias().size()[i]) + ','
-        else:
-            out += '0,'
-    flattened = torch.flatten(model.conv1.bias()).detach().numpy()
+    out += ",".join(flattened) + ',\n'
+    flattened = torch.flatten(layer.bias()).detach().numpy()
     flattened = np.char.mod('%f', flattened)
-    out += ",".join(flattened) + '\n'
-
-    out += 'conv2.weight,'
-    out += str(model.conv2.zero_point) + ','
-    out += str(model.conv2.scale) + ','
-    for i in range(4):
-        if i < len(model.conv2.weight().size()):
-            out += str(model.conv2.weight().size()[i]) + ','
-        else:
-            out += '0,'
-    flattened = torch.flatten(model.conv2.weight().int_repr()).numpy()
-    flattened = np.char.mod('%d', flattened)
-    out += ",".join(flattened) + '\n'
-
-    out += 'conv2.bias,'
-    out += str(model.conv2.zero_point) + ','
-    out += str(model.conv2.scale) + ','
-    for i in range(4):
-        if i < len(model.conv2.bias().size()):
-            out += str(model.conv2.bias().size()[i]) + ','
-        else:
-            out += '0,'
-    flattened = torch.flatten(model.conv2.bias()).detach().numpy()
-    flattened = np.char.mod('%f', flattened)
-    out += ",".join(flattened) + '\n'
-
-    out += 'lin2.weight,'
-    out += str(model.lin2.zero_point) + ','
-    out += str(model.lin2.scale) + ','
-    for i in range(4):
-        if i < len(model.lin2.weight().size()):
-            out += str(model.lin2.weight().size()[i]) + ','
-        else:
-            out += '0,'
-    flattened = torch.flatten(model.lin2.weight().int_repr()).numpy()
-    flattened = np.char.mod('%d', flattened)
-    out += ",".join(flattened) + '\n'
-
-    out += 'lin2.bias,'
-    out += str(model.lin2.zero_point) + ','
-    out += str(model.lin2.scale) + ','
-    for i in range(4):
-        if i < len(model.lin2.bias().size()):
-            out += str(model.lin2.bias().size()[i]) + ','
-        else:
-            out += '0,'
-    flattened = torch.flatten(model.lin2.bias()).detach().numpy()
-    flattened = np.char.mod('%f', flattened)
-    out += ",".join(flattened) + '\n'
-
+    out += ",".join(flattened) + ',\n'
     with open(filename, 'w') as f:
         f.write(out)
