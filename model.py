@@ -71,6 +71,7 @@ print('Using device: ' + str(device))
 class MyConvNet(nn.Module):
     def __init__(self, args):
         super(MyConvNet, self).__init__()
+        self.quant = torch.ao.quantization.QuantStub()
         self.conv1 = nn.Conv2d(1, 16, kernel_size=3, stride=1, 
                                padding=1)
         self.bn1   = nn.BatchNorm2d(16)
@@ -82,22 +83,56 @@ class MyConvNet(nn.Module):
         self.act2  = nn.ReLU(inplace=True)
         self.pool2 = nn.MaxPool2d(kernel_size=2)
         self.lin2  = nn.Linear(7*7*32, 10)
-        self.quant = torch.ao.quantization.QuantStub()
         self.dequant = torch.ao.quantization.DeQuantStub()
+        self.input_scale = 0.0039
+        self.conv1_weight_scale = 0.02924548275768757
+        self.conv1_input_scale = 0.04873983934521675
+        self.conv1_input_zp = 122
+        self.conv2_weight_scale = 0.009187906049191952
+        self.conv2_input_scale = 0.06907722353935242
+        self.conv2_input_zp = 116
+        self.lin2_weight_scale = 0.00169199553783983
+        self.lin2_input_scale = 0.16190846264362335
+        self.lin2_input_zp = 104
+        self.scale = 1.0
+        self.qsize = 16
+
+    def inter_to_csv(self, tensor, filename):
+        out = ''
+        size = tensor.size()
+        for i in range(4):
+            if i < len(tensor.size()):
+                out += str(tensor.size()[i]) + ','
+            else:
+                out += '0,'
+        out += '\n'
+        flattened = torch.flatten(tensor).detach().numpy().astype(np.int)
+        flattened = np.char.mod('%d', flattened)
+        out += ",".join(flattened) + ',\n'
+        with open(filename, 'w') as f:
+            f.write(out)
 
     def forward(self, x):
+        shf_amt = 32-self.qsize
+        x = torch.round(x*self.scale)
         x = self.quant(x)
         c1  = self.conv1(x)
         b1  = self.bn1(c1)
+        b1 = (b1.to(torch.int32) >> shf_amt).to(torch.float)
+        self.inter_to_csv(b1, 'bn1_out.csv')
         a1  = self.act1(b1)
         p1  = self.pool1(a1)
         c2  = self.conv2(p1)
         b2  = self.bn2(c2)
+        b2 = (b2.to(torch.int32) >> shf_amt).to(torch.float)
+        self.inter_to_csv(b2, 'bn2_out.csv')
         a2  = self.act2(b2)
         p2  = self.pool2(a2)
         flt = torch.flatten(p2, start_dim=1) # flt = p2.view(p2.size(0), -1)
         out = self.lin2(flt)
+        out = (out.to(torch.int32) >> shf_amt).to(torch.float)
         out = self.dequant(out)
+        # out = out/127
         return out
 
 # Function that runs the testing set on the passed model

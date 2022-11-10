@@ -1,0 +1,139 @@
+Testing clamp point 0.382978230714798
+Accuracy for test images:  73 %
+Testing clamp point 0.37297823071479796
+Accuracy for test images:  73 %
+Testing clamp point 0.36297823071479796
+Accuracy for test images:  30 %
+Clamp point for layer conv1.weight: 0.37297823071479796
+Testing clamp point 1.0899368524551392
+Accuracy for test images:  73 %
+Testing clamp point 1.0799368524551392
+Accuracy for test images:  30 %
+Clamp point for layer bn1.weight: 1.0899368524551392
+Testing clamp point 0.171872079372406
+Accuracy for test images:  73 %
+Testing clamp point 0.161872079372406
+Accuracy for test images:  73 %
+Testing clamp point 0.151872079372406
+Accuracy for test images:  68 %
+Clamp point for layer conv2.weight: 0.161872079372406
+Testing clamp point 1.3605200052261353
+Accuracy for test images:  73 %
+Testing clamp point 1.3505200052261352
+Accuracy for test images:  73 %
+Testing clamp point 1.3405200052261352
+Accuracy for test images:  69 %
+Clamp point for layer bn2.weight: 1.3505200052261352
+Testing clamp point 0.21466276049613953
+Accuracy for test images:  73 %
+Testing clamp point 0.20466276049613952
+Accuracy for test images:  72 %
+Clamp point for layer lin2.weight: 0.21466276049613953
+Accuracy for test images:  73 %
+Testing clamp point 0.3321022689342499
+Accuracy for test images:  26 %
+Testing clamp point 0.32210226893424987
+Accuracy for test images:  14 %
+Clamp point for layer conv1.bias: 0.3321022689342499
+Testing clamp point 0.24584075808525085
+Accuracy for test images:  26 %
+Testing clamp point 0.23584075808525085
+Accuracy for test images:  26 %
+Testing clamp point 0.22584075808525084
+Accuracy for test images:  26 %
+Testing clamp point 0.21584075808525083
+Accuracy for test images:  26 %
+Testing clamp point 0.20584075808525082
+Accuracy for test images:  26 %
+Testing clamp point 0.1958407580852508
+Accuracy for test images:  26 %
+Testing clamp point 0.1858407580852508
+Accuracy for test images:  26 %
+Testing clamp point 0.1758407580852508
+Accuracy for test images:  26 %
+Testing clamp point 0.16584075808525078
+Accuracy for test images:  26 %
+Testing clamp point 0.15584075808525077
+Accuracy for test images:  26 %
+Testing clamp point 0.14584075808525077
+Accuracy for test images:  26 %
+Testing clamp point 0.13584075808525076
+Accuracy for test images:  26 %
+Testing clamp point 0.12584075808525075
+Accuracy for test images:  26 %
+Testing clamp point 0.11584075808525075
+Accuracy for test images:  26 %
+Testing clamp point 0.10584075808525076
+Accuracy for test images:  26 %
+Testing clamp point 0.09584075808525076
+Accuracy for test images:  26 %
+Testing clamp point 0.08584075808525077
+Accuracy for test images:  26 %
+Testing clamp point 0.07584075808525077
+Accuracy for test images:  26 %
+Testing clamp point 0.06584075808525078
+Accuracy for test images:  26 %
+Testing clamp point 0.055840758085250776
+Accuracy for test images:  26 %
+Testing clamp point 0.045840758085250774
+Accuracy for test images:  26 %
+Testing clamp point 0.03584075808525077
+Accuracy for test images:  26 %
+Testing clamp point 0.02584075808525077
+Accuracy for test images:  26 %
+Testing clamp point 0.015840758085250768
+Accuracy for test images:  26 %
+Testing clamp point 0.005840758085250768
+Accuracy for test images:  26 %
+Testing clamp point -0.004159241914749232
+Accuracy for test images:  26 %
+Clamp point for layer bn1.bias: 0.005840758085250768
+Testing clamp point 0.08263130486011505
+Accuracy for test images:  26 %
+Testing clamp point 0.07263130486011506
+Accuracy for test images:  26 %
+Testing clamp point 0.06263130486011506
+Accuracy for test images:  26 %
+Testing clamp point 0.05263130486011506
+Accuracy for test images:  26 %
+Testing clamp point 0.04263130486011506
+Accuracy for test images:  26 %
+Testing clamp point 0.032631304860115055
+Accuracy for test images:  26 %
+Testing clamp point 0.022631304860115053
+Accuracy for test images:  26 %
+Testing clamp point 0.012631304860115053
+Accuracy for test images:  26 %
+Testing clamp point 0.002631304860115053
+Accuracy for test images:  26 %
+Testing clamp point -0.007368695139884947
+Accuracy for test images:  26 %
+Clamp point for layer conv2.bias: 0.002631304860115053
+Testing clamp point 0.0736059844493866
+Accuracy for test images:  26 %
+Testing clamp point 0.0636059844493866
+Accuracy for test images:  26 %
+Testing clamp point 0.0536059844493866
+Accuracy for test images:  26 %
+Testing clamp point 0.0436059844493866
+Accuracy for test images:  26 %
+Testing clamp point 0.033605984449386596
+Accuracy for test images:  26 %
+Testing clamp point 0.023605984449386594
+Accuracy for test images:  26 %
+Testing clamp point 0.013605984449386594
+Accuracy for test images:  26 %
+Testing clamp point 0.0036059844493865935
+Accuracy for test images:  26 %
+Testing clamp point -0.006394015550613407
+Accuracy for test images:  26 %
+Clamp point for layer bn2.bias: 0.0036059844493865935
+Testing clamp point 0.029843399301171303
+Accuracy for test images:  27 %
+Testing clamp point 0.0198433993011713
+Accuracy for test images:  27 %
+Testing clamp point 0.0098433993011713
+Accuracy for test images:  27 %
+Testing clamp point -0.00015660069882869956
+Accuracy for test images:  27 %
+Clamp point for layer lin2.bias: 0.0098433993011713

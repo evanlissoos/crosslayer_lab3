@@ -3,12 +3,15 @@ from lib import *
 ### Functions for lab assignment
 
 # Quantization for entire model
-def quantize_model(model, num_bits):
+def quantize_model(model, num_bits, clamp):
     first = True
     w_max = 0
     w_min = 0
-    for k, v in model.state_dict().items():
-        if "weight" in k:
+    sd = model.state_dict()
+    for k, v in sd.items():
+        if "weight" in k or "bias" in k:
+            v = torch.clamp(v, min=-clamp, max=clamp)
+            sd[k] = v
             if first:
                 first = False
                 w_max = torch.max(v).item()
@@ -17,11 +20,16 @@ def quantize_model(model, num_bits):
                 w_max = max(w_max, torch.max(v).item())
                 w_min = min(w_min, torch.min(v).item())
     max_int = (1 << (num_bits-1))-1
-    sd = model.state_dict()
+    print(w_max*max_int/w_max)
+    print(-w_min*max_int/w_max)
+    w_max = max(abs(w_max), abs(w_min))
+    print(w_max)
+    model.scale = max_int/w_max
+    model.qsize = num_bits
     with torch.no_grad():
         for k, v in sd.items():
-            if "weight" in k:
-                v = ((v / w_max) * max_int).int()
+            if "weight" in k or "bias" in k:
+                v = (v * model.scale).int()
                 sd[k] = v
 
     model.load_state_dict(sd)

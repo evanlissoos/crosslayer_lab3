@@ -1,0 +1,1742 @@
+Using device: mps
+Testing clamp point 0.382978230714798
+Accuracy for test images:  73 %
+Testing clamp point 0.37297823071479796
+Accuracy for test images:  73 %
+Testing clamp point 0.36297823071479796
+Accuracy for test images:  73 %
+Testing clamp point 0.35297823071479795
+Accuracy for test images:  73 %
+Testing clamp point 0.34297823071479794
+Accuracy for test images:  73 %
+Testing clamp point 0.33297823071479793
+Accuracy for test images:  72 %
+Clamp point for layer conv1.weight: 0.34297823071479794
+Testing clamp point 0.3321022689342499
+Accuracy for test images:  31 %
+Testing clamp point 0.32210226893424987
+Accuracy for test images:  30 %
+Clamp point for layer conv1.bias: 0.3321022689342499
+Testing clamp point 1.0899368524551392
+Accuracy for test images:  31 %
+Testing clamp point 1.0799368524551392
+Accuracy for test images:  31 %
+Testing clamp point 1.0699368524551391
+Accuracy for test images:  31 %
+Testing clamp point 1.0599368524551391
+Accuracy for test images:  31 %
+Testing clamp point 1.0499368524551391
+Accuracy for test images:  31 %
+Testing clamp point 1.0399368524551391
+Accuracy for test images:  31 %
+Testing clamp point 1.029936852455139
+Accuracy for test images:  31 %
+Testing clamp point 1.019936852455139
+Accuracy for test images:  31 %
+Testing clamp point 1.009936852455139
+Accuracy for test images:  31 %
+Testing clamp point 0.9999368524551391
+Accuracy for test images:  31 %
+Testing clamp point 0.9899368524551391
+Accuracy for test images:  31 %
+Testing clamp point 0.9799368524551391
+Accuracy for test images:  31 %
+Testing clamp point 0.969936852455139
+Accuracy for test images:  31 %
+Testing clamp point 0.959936852455139
+Accuracy for test images:  31 %
+Testing clamp point 0.949936852455139
+Accuracy for test images:  31 %
+Testing clamp point 0.939936852455139
+Accuracy for test images:  31 %
+Testing clamp point 0.929936852455139
+Accuracy for test images:  31 %
+Testing clamp point 0.919936852455139
+Accuracy for test images:  31 %
+Testing clamp point 0.909936852455139
+Accuracy for test images:  31 %
+Testing clamp point 0.899936852455139
+Accuracy for test images:  31 %
+Testing clamp point 0.889936852455139
+Accuracy for test images:  31 %
+Testing clamp point 0.879936852455139
+Accuracy for test images:  31 %
+Testing clamp point 0.869936852455139
+Accuracy for test images:  31 %
+Testing clamp point 0.859936852455139
+Accuracy for test images:  31 %
+Testing clamp point 0.849936852455139
+Accuracy for test images:  31 %
+Testing clamp point 0.8399368524551389
+Accuracy for test images:  31 %
+Testing clamp point 0.8299368524551389
+Accuracy for test images:  31 %
+Testing clamp point 0.8199368524551389
+Accuracy for test images:  31 %
+Testing clamp point 0.8099368524551389
+Accuracy for test images:  31 %
+Testing clamp point 0.7999368524551389
+Accuracy for test images:  31 %
+Testing clamp point 0.7899368524551389
+Accuracy for test images:  31 %
+Testing clamp point 0.7799368524551389
+Accuracy for test images:  31 %
+Testing clamp point 0.7699368524551389
+Accuracy for test images:  31 %
+Testing clamp point 0.7599368524551389
+Accuracy for test images:  31 %
+Testing clamp point 0.7499368524551389
+Accuracy for test images:  31 %
+Testing clamp point 0.7399368524551388
+Accuracy for test images:  31 %
+Testing clamp point 0.7299368524551388
+Accuracy for test images:  31 %
+Testing clamp point 0.7199368524551388
+Accuracy for test images:  31 %
+Testing clamp point 0.7099368524551388
+Accuracy for test images:  31 %
+Testing clamp point 0.6999368524551388
+Accuracy for test images:  31 %
+Testing clamp point 0.6899368524551388
+Accuracy for test images:  31 %
+Testing clamp point 0.6799368524551388
+Accuracy for test images:  31 %
+Testing clamp point 0.6699368524551388
+Accuracy for test images:  31 %
+Testing clamp point 0.6599368524551388
+Accuracy for test images:  31 %
+Testing clamp point 0.6499368524551388
+Accuracy for test images:  31 %
+Testing clamp point 0.6399368524551388
+Accuracy for test images:  31 %
+Testing clamp point 0.6299368524551388
+Accuracy for test images:  31 %
+Testing clamp point 0.6199368524551387
+Accuracy for test images:  31 %
+Testing clamp point 0.6099368524551387
+Accuracy for test images:  31 %
+Testing clamp point 0.5999368524551387
+Accuracy for test images:  31 %
+Testing clamp point 0.5899368524551387
+Accuracy for test images:  31 %
+Testing clamp point 0.5799368524551387
+Accuracy for test images:  31 %
+Testing clamp point 0.5699368524551387
+Accuracy for test images:  31 %
+Testing clamp point 0.5599368524551387
+Accuracy for test images:  31 %
+Testing clamp point 0.5499368524551387
+Accuracy for test images:  31 %
+Testing clamp point 0.5399368524551387
+Accuracy for test images:  31 %
+Testing clamp point 0.5299368524551387
+Accuracy for test images:  31 %
+Testing clamp point 0.5199368524551387
+Accuracy for test images:  31 %
+Testing clamp point 0.5099368524551386
+Accuracy for test images:  31 %
+Testing clamp point 0.49993685245513864
+Accuracy for test images:  31 %
+Testing clamp point 0.4899368524551386
+Accuracy for test images:  31 %
+Testing clamp point 0.4799368524551386
+Accuracy for test images:  31 %
+Testing clamp point 0.4699368524551386
+Accuracy for test images:  31 %
+Testing clamp point 0.4599368524551386
+Accuracy for test images:  31 %
+Testing clamp point 0.4499368524551386
+Accuracy for test images:  31 %
+Testing clamp point 0.4399368524551386
+Accuracy for test images:  31 %
+Testing clamp point 0.4299368524551386
+Accuracy for test images:  31 %
+Testing clamp point 0.41993685245513857
+Accuracy for test images:  31 %
+Testing clamp point 0.40993685245513856
+Accuracy for test images:  31 %
+Testing clamp point 0.39993685245513855
+Accuracy for test images:  31 %
+Testing clamp point 0.38993685245513854
+Accuracy for test images:  31 %
+Testing clamp point 0.37993685245513853
+Accuracy for test images:  31 %
+Testing clamp point 0.3699368524551385
+Accuracy for test images:  31 %
+Testing clamp point 0.3599368524551385
+Accuracy for test images:  31 %
+Testing clamp point 0.3499368524551385
+Accuracy for test images:  31 %
+Testing clamp point 0.3399368524551385
+Accuracy for test images:  31 %
+Testing clamp point 0.3299368524551385
+Accuracy for test images:  31 %
+Testing clamp point 0.3199368524551385
+Accuracy for test images:  31 %
+Testing clamp point 0.30993685245513847
+Accuracy for test images:  31 %
+Testing clamp point 0.29993685245513846
+Accuracy for test images:  31 %
+Testing clamp point 0.28993685245513845
+Accuracy for test images:  31 %
+Testing clamp point 0.27993685245513844
+Accuracy for test images:  31 %
+Testing clamp point 0.26993685245513843
+Accuracy for test images:  31 %
+Testing clamp point 0.2599368524551384
+Accuracy for test images:  31 %
+Testing clamp point 0.24993685245513841
+Accuracy for test images:  31 %
+Testing clamp point 0.2399368524551384
+Accuracy for test images:  31 %
+Testing clamp point 0.2299368524551384
+Accuracy for test images:  31 %
+Testing clamp point 0.2199368524551384
+Accuracy for test images:  31 %
+Testing clamp point 0.20993685245513838
+Accuracy for test images:  31 %
+Testing clamp point 0.19993685245513837
+Accuracy for test images:  31 %
+Testing clamp point 0.18993685245513836
+Accuracy for test images:  31 %
+Testing clamp point 0.17993685245513835
+Accuracy for test images:  31 %
+Testing clamp point 0.16993685245513834
+Accuracy for test images:  31 %
+Testing clamp point 0.15993685245513833
+Accuracy for test images:  31 %
+Testing clamp point 0.14993685245513833
+Accuracy for test images:  31 %
+Testing clamp point 0.13993685245513832
+Accuracy for test images:  31 %
+Testing clamp point 0.1299368524551383
+Accuracy for test images:  31 %
+Testing clamp point 0.11993685245513831
+Accuracy for test images:  31 %
+Testing clamp point 0.10993685245513832
+Accuracy for test images:  31 %
+Testing clamp point 0.09993685245513832
+Accuracy for test images:  31 %
+Testing clamp point 0.08993685245513833
+Accuracy for test images:  31 %
+Testing clamp point 0.07993685245513833
+Accuracy for test images:  31 %
+Testing clamp point 0.06993685245513834
+Accuracy for test images:  31 %
+Testing clamp point 0.059936852455138336
+Accuracy for test images:  31 %
+Testing clamp point 0.049936852455138334
+Accuracy for test images:  31 %
+Testing clamp point 0.03993685245513833
+Accuracy for test images:  31 %
+Testing clamp point 0.02993685245513833
+Accuracy for test images:  31 %
+Testing clamp point 0.019936852455138328
+Accuracy for test images:  31 %
+Testing clamp point 0.009936852455138328
+Accuracy for test images:  31 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0
+Accuracy for test images:  34 %
+Testing clamp point 0

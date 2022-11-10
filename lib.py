@@ -37,7 +37,7 @@ def load_model_fquant():
     model = load_model_base()
     # Not sure why, but need to test model otherwise it'll think we're trying to train and fail an assert
     # Probably some sort of PyTorch bug on load-to-use
-    test_model(model, False)
+    model.eval()
     # Quantize/convert the baseline model
     torch.backends.quantized.engine = 'qnnpack'
     model.qconfig = torch.ao.quantization.default_qconfig
@@ -98,19 +98,18 @@ def save_model(model, path):
 # Returns: nothing
 def layer_to_csv(layer, filename):
     out = ''
-    size = layer.weight().size()
+    size = layer.weight.size()
     for i in range(4):
-        if i < len(layer.weight().size()):
-            out += str(layer.weight().size()[i]) + ','
+        if i < len(layer.weight.size()):
+            out += str(layer.weight.size()[i]) + ','
         else:
             out += '0,'
-    out += str(layer.zero_point) + ','
-    out += str(layer.scale) + ',\n'
-    flattened = torch.flatten(layer.weight().int_repr()).numpy()
+    out += '\n'
+    flattened = torch.flatten(layer.weight).detach().numpy().astype(np.int)
     flattened = np.char.mod('%d', flattened)
     out += ",".join(flattened) + ',\n'
-    flattened = torch.flatten(layer.bias()).detach().numpy()
-    flattened = np.char.mod('%f', flattened)
+    flattened = torch.flatten(layer.bias).detach().numpy().astype(np.int)
+    flattened = np.char.mod('%d', flattened)
     out += ",".join(flattened) + ',\n'
     with open(filename, 'w') as f:
         f.write(out)
